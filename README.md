@@ -3,6 +3,13 @@
 
 Crowd evacuation simulations provide crucial guidance for emergency response in public venues. However, many existing path planning methods do not fully account for the impact of crowd panic, which limits their effectiveness in real-world evacuations. To address this issue, we propose a panic‑emotion‑aware path planning method for crowd evacuation. First, we design a ResNet‑RP (Residual Neural Network – Recognition Panic) model with spatiotemporal similarity constraints to accurately identify individual panic emotions and compute the crowd panic level based on the degree of individual aggregation. Second, using the crowd panic level, we apply a mean‑field method to predict the proportion of panicked individuals. Finally, we incorporate the predicted proportion of panicked people into the reward function of a multi‑agent deep deterministic policy gradient algorithm (P‑MAD) to enable emotion‑aware evacuation path planning. Experimental results demonstrate that the proposed method can effectively perceive panic emotions and generate panic‑avoiding evacuation paths for crowds.
 
+### Publication
+
+- SCI 三区，CCF C 类期刊：[`Applied Intelligence`](https://link.springer.com/journal/10489)
+- 引用信息：  
+  An, B., Zhang, G., Zhao, C. et al. *Panic emotion aware path planning for crowd evacuation*. **Applied Intelligence** 56, 125 (2026).  
+  [https://doi.org/10.1007/s10489-026-07154-9](https://doi.org/10.1007/s10489-026-07154-9)
+
 # 项目说明
 
 ## 1. 项目整体在做什么
