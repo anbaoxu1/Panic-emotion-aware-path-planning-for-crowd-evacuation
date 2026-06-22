@@ -1,0 +1,3 @@
+
+while(k--):
+    print(k)
